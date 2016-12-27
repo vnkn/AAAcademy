@@ -792,7 +792,7 @@ button:focus {
     color: #333333;
 }
 .entry-title a:hover {
-    color: #e74c3c !important;
+    color: #ffffff !important;
 } 
 .share-post {
     display: inline-block;
@@ -808,7 +808,7 @@ button:focus {
     text-align: center;
 }
 .share-post a:hover {
-    background: #e74c3c;
+    background: #ffffff;
     color: #ffffff;
 }
 .post-meta {
@@ -856,7 +856,7 @@ button:focus {
     content: '';
     height: 100%;
     width: 1px;
-    background: #e74c3c;
+    background: #ffffff;
     top: 0px;
     right: -2px;
     position: absolute;
@@ -894,7 +894,7 @@ button:focus {
 /* 14 ------ Blog Single Post Styles -------*/
 
 .entry-content blockquote {
-    border-color: #e74c3c;
+    border-color: #ffffff;
     color: #e74c3c;
     font-size: 1em;
     font-weight: 700;
@@ -950,7 +950,7 @@ button:focus {
     padding: 13px 40px;
 }
 .comment-form .btn:hover {
-    background: #e74c3c;
+    background: #ffffff;
     color: #ffffff;
 }
 .comment-section {
@@ -1082,7 +1082,7 @@ button:focus {
     outline: 0;
 }
 .sidebar .social-list a {
-    background: #fafafa;
+    background: #ffffff;
     border-radius: 50%;
     color: #e74c3c;
     display: inline-block;
