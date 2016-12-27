@@ -185,7 +185,7 @@ button:focus {
 /* 3 -------- Header Styles ---------*/
 
 .masthead {
-    background: rgba(0, 0, 0, 0.2);
+    background: #ffffff;
     border: none;
     border-radius: 0px;
     box-shadow: none;
@@ -216,7 +216,7 @@ button:focus {
     padding: 25px 20px;
 }
 .bg-change {
-    background: #333131;
+    background: #fffff;
 }
 .bg-change .navbar-brand {
     padding-top: 8px;
