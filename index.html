@@ -1,3 +1,4 @@
+es (777 sloc)  41.4 KB
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
@@ -51,7 +52,7 @@
           <li class="active"><a href="#main-slider">Home</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#about">About Us</a></li>
-          <li><a href="#blog">Guru</a></li>
+          <li><a href="#portfolio">Guru</a></li>
           <li><a href="#contact">Contact Us!</a></li>
         </ul>
       </nav><!-- /.navbar-collapse -->
@@ -73,7 +74,11 @@
           </div><!-- /.head-overlay -->
           <div class="slider-text">
             <div class="slide-inner">
-              <h2 class="slider-title" data-animation="wow animated bounceInDown">Welcome to <span>Abinaya Arts Academy!</span></h2>
+              <h2 class="slider-title" data-animation="wow animated bounceInDown">Welcome to <span>Polmo</span></h2>
+              <p class="slide-description">POLMO theme is absolute free for your personal or business use.</p>
+              <div class="slide-btn-container">
+                <a class="btn" href="http://jeweltheme.com/product/polmo/">Download Polmo</a>
+              </div><!-- /.slide-btn-container -->
             </div><!-- /.slide-inner -->
           </div><!-- /.slider-text -->
         </li>
@@ -105,12 +110,9 @@
       <div class="container">
         <div class="row">
           <div class="section-top wow animated fadeInUp" data-wow-delay=".5s">
-            <h2 class="section-title"><span>Abinaya</span> Core Services</h2>
-            <p class="section-description">
-			We offer many types of lessons, from individual to group, and performances of all sizes. While our lessons are focused on Bharatanatyam, we sometimes do other types too! Contact us to find out if we accomodate your interests.
             <h2 class="section-title"><span>Abinaya Arts Academy</span> Core Services</h2>
             <p class="section-description">
-             We offer many types of lessons, from individual to Group, and do various performances throughout the year.
+             We offer many types of lessons, from individual to Group, and do various performances throughout the year. 
             </p><!-- /.section-description -->
           </div><!-- /.section-top -->
 
@@ -885,17 +887,13 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-63948535-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
 
   <script>
-
     $(".bxslider").bxSlider({auto:!0,preloadImages:"all",mode:"horizontal",captions:!1,controls:!0,pause:4000,speed:1200,onSliderLoad:function(){$(".bxslider>li .slide-inner").eq(1).addClass("active-slide"),$(".slide-inner.active-slide .slider-title").addClass("wow animated bounceInDown"),$(".slide-inner.active-slide .slide-description").addClass("wow animated bounceInRight"),$(".slide-inner.active-slide .btn").addClass("wow animated zoomInUp")},onSlideAfter:function(e,i,n){console.log(n),$(".active-slide").removeClass("active-slide"),$(".bxslider>li .slide-inner").eq(n+1).addClass("active-slide"),$(".slide-inner.active-slide").addClass("wow animated bounceInRight")},onSlideBefore:function(){$(".slide-inner.active-slide").removeClass("wow animated bounceInRight"),$(".one.slide-inner.active-slide").removeAttr("style")}}),$(document).ready(function(){function e(){return"ontouchstart"in document.documentElement}function i(){if("undefined"!=typeof google){var i={center:[-37.817331,144.955652],zoom:15,mapTypeControl:!0,mapTypeControlOptions:{style:google.maps.MapTypeControlStyle.DROPDOWN_MENU},navigationControl:!0,scrollwheel:!1,streetViewControl:!0};e()&&(i.draggable=!1),$("#googleMaps").gmap3({map:{options:i},marker:{latLng:[23.709921,90.407143],options:{icon:"images/mapicon.png"}}})}}$("#masthead #main-menu").onePageNav(),i()}),$("#contactform").on("submit",function(e){e.preventDefault(),$this=$(this),$.ajax({type:"POST",url:$this.attr("action"),data:$this.serialize(),success:function(){alert("Message Sent Successfully")}})});
-
   </script>
 </body>
 </html>
