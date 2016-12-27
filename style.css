@@ -789,7 +789,7 @@ button:focus {
     margin: 0px;
 }
 .entry-title a {
-    color: #333333;
+    color: #ffffff;
 }
 .entry-title a:hover {
     color: #ffffff !important;
@@ -798,7 +798,7 @@ button:focus {
     display: inline-block;
 }
 .share-post a {
-    background: #f2f2f2;
+    background: #ffffff;
     border-radius: 50%;
     color: #ffffff;
     display: inline-block;
@@ -812,7 +812,7 @@ button:focus {
     color: #ffffff;
 }
 .post-meta {
-    color: #a7a7a8;
+    color: #ffffff;
     font-size: .8125em;
 }
 .post-meta .author {
@@ -1042,7 +1042,7 @@ button:focus {
     font-size: 1em;
 }
 .sidebar .entry-title a {
-    color: #e74c3c;
+    color: #ffffff;
     text-transform: capitalize;
 }
 .sidebar .post-meta {
@@ -1050,25 +1050,25 @@ button:focus {
     padding-top: 8px;
 }
 .sidebar .comments {
-    color: #333333;
+    color: #ffffff;
 }
 .search-form {
     position: relative;
 }
 .search-form input {
     border: 2px solid #e74c3c;
-    color: #e74c3c;
+    color: #ffffff;
     font-size: .93em;
     padding: 12px 45px 12px 15px;
 }
 .search-form input:focus {
-    border-color: #e74c3c;
+    border-color: #ffffff;
     outline: 0;
 }
 .search-submit {
     background: transparent;
     border: none;
-    color: #e74c3c;
+    color: #ffffff;
     top: 50%;
     right: 0;
     position: absolute;
@@ -1084,7 +1084,7 @@ button:focus {
 .sidebar .social-list a {
     background: #ffffff;
     border-radius: 50%;
-    color: #e74c3c;
+    color: #ffffff;
     display: inline-block;
     font-size: 1.5em;
     width: 40px;
@@ -1100,7 +1100,7 @@ button:focus {
     background: #ffffff;
     border: 1px solid #a7a7a8;
     border-radius: 0px;
-    color: #a7a7a8;
+    color: #ffffff;
     height: inherit;
     padding: 15px 15px;
 }
@@ -1108,7 +1108,7 @@ button:focus {
     display: block;
 }
 .archive-list a {
-    color: #a7a7a8;
+    color: #ffffff;
     font-size: .8125em;
 }
 .stream-list li {
